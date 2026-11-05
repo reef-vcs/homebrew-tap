@@ -3,28 +3,28 @@
 class Reef < Formula
   desc "Version control for fleets of coding agents"
   homepage "https://github.com/reef-vcs/reef"
-  version "0.4.1"
+  version "0.4.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/reef-vcs/reef/releases/download/v0.4.1/reef-0.4.1-aarch64-apple-darwin.tar.gz"
-      sha256 "bb3606c8ddea42584b7a3dbf96c4cee2887141ad82ca511e9a3d6f3a8906d6c8"
+      url "https://github.com/reef-vcs/reef/releases/download/v0.4.2/reef-0.4.2-aarch64-apple-darwin.tar.gz"
+      sha256 "0702afdbebca97a3a935fecb75e744f48fd9ca1bcdd1e6ca4496f48b916dd718"
     end
     on_intel do
-      url "https://github.com/reef-vcs/reef/releases/download/v0.4.1/reef-0.4.1-x86_64-apple-darwin.tar.gz"
-      sha256 "1620af591c6f35f41a287e395e6854abf9761adc3963d7106d2256c8d43b17bc"
+      url "https://github.com/reef-vcs/reef/releases/download/v0.4.2/reef-0.4.2-x86_64-apple-darwin.tar.gz"
+      sha256 "2044f43084fdf9b540852a494af4523d0a397c013dc12c5d3be459d3640e59d0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/reef-vcs/reef/releases/download/v0.4.1/reef-0.4.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "9d2e60989d50888d6fe3c7922106a929f5f19b098938bf0189d17fe1958e109b"
+      url "https://github.com/reef-vcs/reef/releases/download/v0.4.2/reef-0.4.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "cb48ca977e38724c61d1952e6dda1f5df86e7c11cba340454bdedbe9328a066b"
     end
     on_intel do
-      url "https://github.com/reef-vcs/reef/releases/download/v0.4.1/reef-0.4.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "6e4fc342cac8a7b18665492817ca583020eba2589a6d052faecb463e8ea8d7eb"
+      url "https://github.com/reef-vcs/reef/releases/download/v0.4.2/reef-0.4.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "983bb4d2b0d07557a4df368bbfcaf9310528dff7f9a89173b2a5bd38092428b1"
     end
   end
 
